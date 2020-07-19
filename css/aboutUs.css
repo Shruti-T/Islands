@@ -1,0 +1,22 @@
+body {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.aboutus h1{
+    left:50%;
+    position: absolute;
+    top:25%;
+    transform: translate(-50%,-55%);
+    text-align: center;
+}
+
+.aboutus p{
+    left:50%;
+    position: absolute;
+    top:70%;
+    transform: translate(-50%,-55%);
+    text-align: center; 
+}

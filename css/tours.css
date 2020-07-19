@@ -4,6 +4,10 @@ body {
     background-attachment: fixed;
     background-size: cover;  
 }
+.heading{
+    text-align: center;
+    margin-top: 100px;
+}
 
 .bd-example{
     height: 10px; 
@@ -13,12 +17,15 @@ body {
     object-fit: cover;
 }
 
+.text{
+    color: black;
+}
 .features {
     margin: 4em auto;
     padding: 1em;
     position: relative;
     margin-top: 100px; 
-    margin-right: 2%;
+    margin-right: 0%;
 }
 
 .feature-title {
