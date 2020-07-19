@@ -9,6 +9,7 @@ body {
     position:fixed; 
     color: black;
     top: 120px;
+    margin-bottom: 1000px;
 }
 .form-design{
     width:500px;
@@ -16,4 +17,5 @@ body {
 }
 .card{
     padding: 50px;
+     
 }

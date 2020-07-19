@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/main.css">
         <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
     </head>
@@ -60,49 +61,70 @@
         </nav>
         <div class="form-design">
         <div class = "form card justify-content-center">
-            <form>
+            <form name="contactus">
                 <div class="row">
                     <div class="col">
                         <label for="fname">First Name
                         </label>
-                        <input type="text" class="form-control" placeholder="First name" required>
+                        <input type="text" class="form-control" placeholder="First name" required id="fname">
                     </div>
                     <div class="col">
                         <label for="lname">Last Name
                         </label>
-                        <input type="text" class="form-control" placeholder="Last name">
+                        <input type="text" class="form-control" placeholder="Last name" id="lname">
                     </div>
                 </div>
                 
                 <div class = "form-group">
                     <label for="Email">Email
                     </label>
-                    <input type="email" class="form-control" placeholder="Your Email" required>
+                    <input type="email" class="form-control" placeholder="Your Email" required id="Email">
                 </div>
                 
                 <div class = "form-group">
                     <label for="Phone">Phone Number
                     </label>
-                    <input type="number"class="form-control" placeholder="Phone Number" required>
+                    <input type="number"class="form-control" placeholder="Phone Number" required id="Phone">
                 </div>
                 
                 <div class = "form-group">
                     <label for="message">Your Message
                     </label>
-                    <textarea class="form-control" type="text" rows="2" placeholder="Type your message here.." required></textarea>
+                    <textarea class="form-control" type="text" rows="2" placeholder="Type your message here.." required id="message"></textarea>
                 </div>
      
      <!--how to add respone for submit button-->
-                <button type="submit" class="btn btn-primary btn-block" onclick="onSubmit()">Submit</button>
+                <button type="submit" class="btn btn-primary btn-block">Submit</button>
             </form>
         </div>
         </div>
-        <script>
-            
-            function onSubmit(){
-                alert("Message sent successfully");
-            }
         
-        </script>
+       <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2"><br>
+                    <a href="contact.html" style="color: white">CONTACT US</a>
+                </div>
+                 <div class="col-sm-2"><br>
+                    <p>TERMS OF USE</p>
+                </div>
+                 <div class="col-sm-2"><br>
+                    <p>PRIVACY NOTICE</p>
+                </div>
+                <div class="col-sm-2"><br>
+                    <p>COOKIE POLICY</p>
+                </div>
+                <div class="col-sm-2"><br>
+                </div>
+                <div class="col-sm-2"><br>
+                    <p>
+                        <i class="fa fa-twitter-square" aria-hidden="true" style="font-size:30px;"></i>
+                        <i class="fa fa-facebook-square" aria-hidden="true" style="font-size:30px;" ></i>
+                        <i class="fa fa-instagram" aria-hidden="true" style="font-size:30px;"></i>
+                    </p>
+                </div>
+            </div>
+        </div>      
+    </div> 
     </body>
 </html>

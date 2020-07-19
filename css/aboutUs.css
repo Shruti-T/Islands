@@ -4,6 +4,9 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+.aboutus{
+    margin-bottom: 800px;
+}
 
 .aboutus h1{
     left:50%;
