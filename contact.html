@@ -58,18 +58,8 @@
                 </ul>
                 </div>
         </nav>
-
-        
-        <div class= "contact">
-            <h1>
-                <p>Have An Enquiry?</p>
-                <p>Write to us.</p>
-            </h1>
-            <p>Fill in these details and<br> we will get back to you with travel ideas,<br> at the earliest!
-            </p>
-        </div>
-        
-        <div class = "form">
+        <div class="form-design">
+        <div class = "form card justify-content-center">
             <form>
                 <div class="row">
                     <div class="col">
@@ -103,8 +93,15 @@
                 </div>
      
      <!--how to add respone for submit button-->
-                <button type="submit" class="btn btn-primary" onclick="function()">Submit</button>
+                <button type="submit" class="btn btn-primary btn-block" onclick="onSubmit()">Submit</button>
             </form>
         </div>
+        </div>
+        <script>
+            function onSubmit(){
+                alert("Message sent successfully");
+            }
+        
+        </script>
     </body>
 </html>

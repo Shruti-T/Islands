@@ -1,20 +1,19 @@
 body {
-  background-image: url('#');
+  background-image: url('../images/backgroundHome.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-.contact{
-    position:fixed; 
-    left:40px; 
-    top:80px;
-    color:black;   
-}
-
 .form{
-     position:fixed; 
-    left:500px; 
-    top:180px;
-    color:black;
+    position:fixed; 
+    color: black;
+    top: 120px;
+}
+.form-design{
+    width:500px;
+    margin:0 auto;
+}
+.card{
+    padding: 50px;
 }
