@@ -1,0 +1,24 @@
+{
+  "name": "islands",
+  "version": "1.0.0",
+  "description": "This is the first project on web dev.\r This is a travel website to view information about maldives islands.\r Also some codes on typescript for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b:"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shruti-T/Islands.git"
+  },
+  "author": "shruti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shruti-T/Islands/issues"
+  },
+  "homepage": "https://github.com/Shruti-T/Islands#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "prettier": "^2.3.1",
+    "ts-node": "^10.0.0"
+  }
+}
